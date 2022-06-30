@@ -1,0 +1,16 @@
+{
+  "name": "default",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "wite",
+    "build": "wite build",
+    "preview": "wite preview --port 4173"
+  },
+  "dependencies": {
+    "kdu": "^3.2.33"
+  },
+  "devDependencies": {
+    "@witejs/plugin-kdu": "^2.3.1",
+    "wite": "^2.9.7"
+  }
+}
