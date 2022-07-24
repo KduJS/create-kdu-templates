@@ -1,0 +1,24 @@
+{
+  "name": "typescript-router",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "wite",
+    "build": "run-p type-check build-only",
+    "preview": "wite preview --port 4173",
+    "build-only": "wite build",
+    "type-check": "kdu-tsc --noEmit"
+  },
+  "dependencies": {
+    "kdu": "^3.2.37-alpha.1",
+    "kdu-router": "^4.0.16-rc.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.36",
+    "@kdujs/tsconfig": "^0.1.3",
+    "@witejs/plugin-kdu": "^2.3.3-alpha.0",
+    "kdu-tsc": "^0.38.5-beta.0",
+    "npm-run-all": "^4.1.5",
+    "typescript": "~4.7.2",
+    "wite": "^2.9.9-alpha.0"
+  }
+}

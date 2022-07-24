@@ -1,0 +1,17 @@
+{
+  "name": "jsx",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "wite",
+    "build": "wite build",
+    "preview": "wite preview --port 4173"
+  },
+  "dependencies": {
+    "kdu": "^3.2.37-alpha.1"
+  },
+  "devDependencies": {
+    "@witejs/plugin-kdu": "^2.3.3-alpha.0",
+    "@witejs/plugin-kdu-jsx": "^1.3.10-alpha.0",
+    "wite": "^2.9.9-alpha.0"
+  }
+}
